@@ -1,0 +1,27 @@
+<!DOCTYPE html>: Syntax ini memberitahu browser bahwa dokumen ini menggunakan HTML5. bagian ini penting untuk memastikan browser menampilkan halaman sesuai standar HTML5.
+<html lang="en">: Tag pembuka untuk elemen HTML. Atribut lang="en" mengindikasikan bahwa bahasa utama halaman ini adalah bahasa Inggris, yang membantu mesin pencari dan pembaca layar untuk memahami konten.
+
+<head>: Bagian ini berfungsi sebagai tempat untuk informasi meta-data, untuk konfigurasi dan pengaturan halaman web.
+
+<meta charset="UTF-8" />: Mengatur set karakter halaman sebagai UTF-8, yang merupakan standar untuk mendukung berbagai karakter dan simbol.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />: Menyatakan pengaturan tampilan untuk berbagai perangkat, memastikan halaman menyesuaikan lebar layar perangkat secara otomatis, penting untuk desain responsif.
+
+<link rel="stylesheet" href="style.css" />: Menghubungkan halaman HTML ini dengan file CSS eksternal (style.css) untuk menambah gaya dan desain pada elemen halaman.
+
+<header>: Bagian ini menampilkan bagian awal halaman, bagian ini berisi judul atau navigasi utama. header adalah elemen semantik dalam HTML5 yang mengindikasikan bahwa ini adalah bagian awal atau pembuka.
+
+<h1>HTML5 Semantic</h1>: Tag <h1> adalah judul utama halaman yang menyajika topik atau judul utama yang akan dibaca pengguna.
+
+<nav>: Menunjukkan bagian navigasi dari halaman. Elemen ini biasanya berisi tautan ke berbagai bagian halaman atau situs.
+<ul>: Membuat daftar tanpa urutan yang berisi item-item navigasi.
+<li>: Item dalam daftar, yang dalam kasus ini adalah tautan navigasi atau pengertian cepatnya adalah list halaman.
+<a href="#home">Home</a>: Tag <a> berfungsi untuk membuat tautan. Atribut href="#home" mengarahkan ke ID yang sesuai dalam halaman yang sama.
+html
+
+<section>: Elemen semantik yang digunakan untuk mendefinisikan bagian dari konten. Di sini, elemen ini mengandung kata "Konten" sebagai placeholder untuk konten aktual yang akan ditempatkan di halaman ini.
+
+<footer>: Elemen HTML5 semantik yang digunakan untuk mendefinisikan area footer pada halaman, biasanya berisi informasi hak cipta, penulis, atau tautan tambahan.
+
+</html>: Tag penutup dari elemen HTML yang mengakhiri dokumen HTML. Semua konten HTML harus ada di antara tag <html> pembuka dan penutup ini.
+
