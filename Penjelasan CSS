@@ -1,0 +1,18 @@
+nav: Elemen <nav> memiliki warna latar belakang #c9bfbf dan ditempatkan di area grid bernama "nav" berdasarkan layout grid yang didefinisikan di elemen <body>.
+
+header: Elemen <header> memiliki warna latar belakang #707070, ditempatkan di area grid "header", dan teks di dalamnya diratakan ke tengah.section: Elemen <section> memiliki warna latar belakang #ababab dan ditempatkan di area grid "section".
+
+body:
+Menggunakan display: grid untuk menerapkan layout grid pada halaman.
+grid-template-areas: Menetapkan layout grid dengan area bernama "header", "nav", "section", dan "footer":
+Baris pertama: "header" mengambil seluruh lebar halaman.
+Baris kedua: "nav" di kiri dan "section" mengambil dua kolom di sebelahnya.
+Baris ketiga: "footer" mengambil seluruh lebar halaman.
+grid-template-rows: Menetapkan tinggi baris dengan 80px untuk header, 1fr (fleksibel) untuk konten utama, dan 50px untuk footer.
+grid-template-columns: Menetapkan lebar kolom pertama sebagai 20%, kolom kedua fleksibel (1fr), dan kolom ketiga 18%.
+grid-gap: Memberikan jarak antar elemen grid sebesar 5px.
+height: Mengatur tinggi keseluruhan halaman menjadi 100vh, atau setinggi viewport.
+header, nav, section, footer: Menambahkan padding sebesar 5px untuk memberikan jarak antara konten dengan tepi elemen.
+css
+
+footer: Elemen <footer> memiliki warna latar belakang #707070, ditempatkan di area grid "footer", teks diratakan ke tengah, dan ukuran font ditetapkan menjadi kecil (small).
