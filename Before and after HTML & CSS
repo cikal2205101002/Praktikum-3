@@ -1,0 +1,11 @@
+before update HTML & CSS
+jika open in browser CSS tidak tampil
+karena tidak link rel
+
+After update HTML & CSS 
+pada open in browser maka CSS akan bekerja
+dan menampilkan tampilan yang berbeda
+karena pada HTML yang sudah diupdate menggunakan "HTML lang ="en"
+dan connect dengan style.css
+
+Pada tampilan after CSS juga di tambahkan beberapa element baru
